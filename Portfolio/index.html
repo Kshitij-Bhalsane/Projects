@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kshitij's Resume</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="ds.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    <script src="https://kit.fontawesome.com/your-kit-id.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+</head>
+<body >
+
+    <!-- Navbar -->
+    <nav class="navbar">
+
+        <div class="logo-container">
+            <a href="#home">
+                <img src="images/bg.png" alt="Logo" class="logo"> 
+            </a>
+        </div>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="landing" id="home">
+        <h1>Hello, I'm <span class="highlight">Kshitij Bhalsane </span> <br> Welcome to my Portfolio Page!!</h1>
+        <h2><span id="typed-text"></span><span class="cursor">|</span></h2>
+      </div>
+
+    <!-- About Section -->
+    <div class="Container1" id="about">
+        <div class="Title">
+            <h1>About Me</h1>
+        </div>
+        <div class="Content">
+            <div class="photo">
+                <img src="./images/aboutME.png" alt="Placeholder image">
+            </div>
+            <div class="Description">
+                I’m Kshitij, a Computer Engineering student.
+                I have a passion for web development, AI, data analysis, and Java programming—skills.
+                I Qualified GATE 2025 and am an Avid Learner and Tech-Enthusiast.
+                 Driven by a dedication to leveraging technology for positive change, 
+                 I’m committed to creating innovative solutions that solve real‑world challenges.
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Education Section -->
+    <div class="EducationTimeline" id="education">
+        <h2 class="SectionTitle">Education</h2>
+
+        <div class="TimelineItem">
+            <div class="TimelineLeft">
+                <h3>Pre-Schooling</h3>
+                <span class="TimelineYear">2008–2012</span>
+            </div>
+            <div class="TimelineIcon">
+                <i class="fa-solid fa-graduation-cap"></i>
+            </div>
+            <div class="TimelineRight">
+                <h4>PSBA English Medium School</h4>
+                <p>Early childhood education and learning in a nurturing environment.</p>
+            </div>
+        </div>
+
+        <div class="TimelineItem">
+            <div class="TimelineLeft">
+                <h3>Schooling</h3>
+                <span class="TimelineYear">2012–2020</span>
+            </div>
+            <div class="TimelineIcon">
+                <i class="fa-solid fa-graduation-cap"></i>
+            </div>
+            <div class="TimelineRight">
+                <h4>St. Joseph's Convent Se. Sec. School, Jalgaon</h4>
+                <p>Developed a holistic foundation in academics, leadership, and communication.</p>
+            </div>
+        </div>
+
+        <div class="TimelineItem">
+            <div class="TimelineLeft">
+                <h3>Junior College</h3>
+                <span class="TimelineYear">2020–2022</span>
+            </div>
+            <div class="TimelineIcon">
+                <i class="fa-solid fa-graduation-cap"></i>
+            </div>
+            <div class="TimelineRight">
+                <h4>DNC, Jalgaon</h4>
+                <p>Studied science, with a strong emphasis on analytical thinking and academic fundamentals.</p>
+            </div>
+        </div>
+
+        <div class="TimelineItem">
+            <div class="TimelineLeft">
+                <h3>Bachelor of Engineering</h3>
+                <span class="TimelineYear">2022–2026</span>
+            </div>
+            <div class="TimelineIcon">
+                <i class="fa-solid fa-graduation-cap"></i>
+            </div>
+            <div class="TimelineRight">
+                <h4>G.E.S. R. H. Sapat College of Engineering, Nashik</h4>
+                <p>Immersed in Computer Engineering to become a versatile technologist ready for real-world challenges.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Skills Section -->
+    <div class="Container2" id="skills">
+        <div class="Title">
+            <h1>Skills</h1>
+        </div>
+    
+        <div class="Content">
+            <div class="card">
+                <img class="card-img-top" src="images/py.png" alt="Python">
+                <div class="card-body"><p class="card-text">Python</p></div>
+            </div>
+
+            <div class="card">
+                <img class="card-img-top" src="images/jupyter.png" alt="Jupyter">
+                <div class="card-body"><p class="card-text">Jupyter Notebook</p></div>
+            </div>
+
+            <div class="card">
+                <img class="card-img-top" src="images/sql.png" alt="SQL">
+                <div class="card-body"><p class="card-text">SQL</p></div>
+            </div>
+
+            <div class="card">
+                <img class="card-img-top" src="images/excel.png" alt="Excel">
+                <div class="card-body"><p class="card-text">Excel</p></div>
+            </div>
+
+            <div class="card">
+                <img class="card-img-top" src="images/powerBI.png" alt="PowerBI">
+                <div class="card-body"><p class="card-text">PowerBI</p></div>
+            </div>
+
+            <div class="card">
+                <img class="card-img-top" src="images/java.png" alt="Java">
+                <div class="card-body"><p class="card-text">Java</p></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Projects Section -->
+    <div class="Container3" id="projects">
+        <div class="Title">
+            <h1>Projects</h1>
+        </div>
+    
+        <div class="ProjectsRow">
+            <div class="Content">
+                <a href="https://kshitij-bhalsane.github.io/AI_CHATBOT/" target="_blank">
+                    <div class="project-photo">
+                        <img src="/images/AuroraAi.jpg" alt="Aurora AI" />
+                    </div>
+                </a>
+                <p>Aurora AI</p>
+            </div>
+    
+            <div class="Content">
+                <a href="https://github.com/Kshitij-Bhalsane/Projects.git" target="_blank">
+                    <div class="project-photo">
+                        <img src="/images/TextEditor.png" alt="Text Editor" />
+                    </div>
+                </a>
+                <p>Text Editor</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="container" id="contact">
+        <form method="post" action="https://script.google.com/macros/s/AKfycbxWPt6adLPW1b7puLnj4HBzMBJkPkRukvDizOKjdParmEAvfItHDdQhWrNlFcnrKfCeBA/exec" name="contact-form">
+            <h4>Contact Me</h4>
+            <input type="text" name="your-name" placeholder="Name" required>
+            <input type="text" name="your-number" placeholder="Number" required>
+            <input type="email" name="your-email" placeholder="Email" required>
+            <textarea name="message" rows="7" placeholder="Your Message" required></textarea>
+            <input type="submit" value="Submit" id="submit">
+        </form>
+    </div>
+
+
+      <!-- Footer Section -->
+<footer class="footer" id="footer">
+    <div class="footer-container">
+      <h2>Let's Connect</h2>
+      <p>Reach out to me on social platforms or drop a mail!</p>
+  
+      <div class="social-icons">
+        <a href="https://github.com/Kshitij-Bhalsane" target="_blank" class="icon github" title="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/kshitij-bhalsane-196611273/" target="_blank" class="icon linkedin" title="LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+
+        <a href="mailto:kshitijbhalsane047@gmail.com" class="icon email" title="Email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </div>
+  
+      <p class="footer-note">© 2025 Kshitij Bhalsane. Built with 💙 and tech.</p>
+    </div>
+  </footer>
+
+    <script src="1.js"></script>
+
+</body>
+  
+</html>
